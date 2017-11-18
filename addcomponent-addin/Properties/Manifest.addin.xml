@@ -7,11 +7,15 @@
 	<Runtime>
 		<Import file="Templates/CompoundView.xft.xml" />
 		<Import file="Templates/GenericClass.xft.xml" />
+		<Import file="Templates/TableView.xft.xml" />
 	</Runtime>
 	<Extension path="/MonoDevelop/Ide/FileTemplates">
 		<FileTemplate id="ios-compoundview" file="Templates/CompoundView.xft.xml" />
 	</Extension>
 	<Extension path="/MonoDevelop/Ide/FileTemplates">
 		<FileTemplate id="generic-class" file="Templates/GenericClass.xft.xml" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id="ios-tableview" file="Templates/TableView.xft.xml" />
 	</Extension>
 </Addin>
