@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Addin name="Add Component Extensions" id="addcomponent-extensions"
+	namespace="AddComponentExtensions" author="Tomaz Saraiva"
+	copyright="Tomaz Saraiva" description="A bunch of new file templates to make your life a lot easier"
+	category="IDE extensions" url="https://github.com/tomazsaraiva/addcomponent-xamarin-addin"
+	version="0.0.1" flags="None">
+	<Runtime>
+		<Import file="Templates/CompoundView.xft.xml" />
+		<Import file="Templates/GenericClass.xft.xml" />
+	</Runtime>
+	<Extension path="/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id="ios-compoundview" file="Templates/CompoundView.xft.xml" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate id="generic-class" file="Templates/GenericClass.xft.xml" />
+	</Extension>
+</Addin>

@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addcomponent-addin", "addcomponent-addin\addcomponent-addin.csproj", "{3F65E6FC-E51E-4258-B307-744BF75A5AD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F65E6FC-E51E-4258-B307-744BF75A5AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F65E6FC-E51E-4258-B307-744BF75A5AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F65E6FC-E51E-4258-B307-744BF75A5AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F65E6FC-E51E-4258-B307-744BF75A5AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $2
+		$2.inheritsSet = null
+		$2.scope = application/xml
+		$0.XmlFormattingPolicy = $3
+		$3.DefaultFormat = $4
+		$4.AttributesInNewLine = True
+		$4.AlignAttributes = True
+		$4.AlignAttributeValues = True
+		$4.EmptyLinesBeforeStart = 1
+		$4.EmptyLinesAfterEnd = 1
+		$4.WrapAttributes = True
+		$4.MaxAttributesPerLine = 2
+		$3.scope = application/xml
+		$3.Formats = $5
+		$5.XmlFormattingSettings = $6
+		$6.OmitXmlDeclaration = False
+		$6.NewLineChars = @\n
+		$6.IndentContent = True
+		$6.ContentIndentString = @\t
+		$6.AttributesInNewLine = False
+		$6.MaxAttributesPerLine = 10
+		$6.AttributesIndentString = @\t
+		$6.WrapAttributes = False
+		$6.AlignAttributes = False
+		$6.AlignAttributeValues = False
+		$6.QuoteChar = """
+		$6.SpacesBeforeAssignment = 0
+		$6.SpacesAfterAssignment = 0
+		$6.EmptyLinesBeforeStart = 0
+		$6.EmptyLinesAfterStart = 0
+		$6.EmptyLinesBeforeEnd = 0
+		$6.EmptyLinesAfterEnd = 0
+		$5.__added = 0
+	EndGlobalSection
+EndGlobal

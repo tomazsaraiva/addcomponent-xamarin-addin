@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<Template Originator="Tomaz Saraiva"
+	Created="15/11/2017"
+	LastModified="15/11/2017">
+	<TemplateConfiguration>
+		<_Name>Generic Class</_Name>
+		<Icon>md-class-file</Icon>
+		<_Category>Add Component</_Category>
+		<LanguageName>C#</LanguageName>
+		<_Description>Creates an empty class.</_Description>
+		<DefaultFilename>GenericClass</DefaultFilename>
+	</TemplateConfiguration>
+	<TemplateFiles>
+		<File name="${Name}.${LanguageExtension}"><![CDATA[
+using System;
+
+namespace ${Namespace}
+{
+    public class ${Name}
+    {
+        // ctor
+			
+        public ${Name} () 
+        {
+        }
+    }
+}
+]]></File>
+	</TemplateFiles>
+	<FileOptions />
+</Template>
